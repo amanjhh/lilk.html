@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>gogo search</title>
+   <style>
+
+*{
+
+
+margin: 0;
+padding: 0;
+
+font-family: cursive;
+box-sizing: border-box;
+
+}
+div{
+width: 200px;
+height: 100px;
+position: absolute;
+left:50%;
+top: 50%;
+text-align: center;
+}
+div button{
+
+width: 100px;
+height: 50px;
+border-radius: 20px;
+
+
+}
+
+   </style>
+   
+   </head>
+<body>
+  
+<div>
+
+<button onclick="play()">اعجاب</button>
+<p id="amanj">0</p>
+</div>
+    
+  
+<script>
+
+  
+function play(){
+    var amanja = parseInt(document.getElementById("amanj").innerHTML );
+    document.getElementById("amanj").innerHTML = amanja +  1;
+
+
+
+
+
+
+
+
+}
+
+
+
+</script>
+
+
+
+</div>
+</body>
+</html>
